@@ -27,6 +27,22 @@ function getDNSStats(/* domains */) {
   // remove line with error and write your code here
 }
 
+  // let result = {};
+  // let fullArray = [];
+  // domains.forEach(element => {
+  //   let array = element.split(".").reverse();
+  //   fullArray = fullArray + element;
+  //   // console.log(array);
+
+  //   let key = '';
+  //   array.forEach(part =>{
+  //     key = key + '.' + part;
+      
+      
+  //   })
+  //   console.log(fullArray)
+  // });
+
 module.exports = {
   getDNSStats
 };
